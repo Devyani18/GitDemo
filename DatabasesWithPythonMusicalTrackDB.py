@@ -1,10 +1,12 @@
 import xml.etree.ElementTree as ET
 import sqlite3
 
+# GIT demo
+
 conn = sqlite3.connect('trackdb.sqlite')
 cur = conn.cursor()
 
-cur.execute('DROP TABLE IF EXISTS teackdb')
+cur.execute('DROP TABLE IF EXISTS trackdb')
 
 # Make some fresh tables using executescript()
 cur.executescript('''
