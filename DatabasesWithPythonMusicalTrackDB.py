@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import sqlite3
 
 # GIT demo
+# changes from GIT person
 
 conn = sqlite3.connect('trackdb.sqlite')
 cur = conn.cursor()
