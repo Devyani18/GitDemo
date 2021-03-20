@@ -3,6 +3,7 @@ import sqlite3
 
 # GIT demo
 # changes from GIT person
+# These changes are done in BranchDemo branch
 
 conn = sqlite3.connect('trackdb.sqlite')
 cur = conn.cursor()
